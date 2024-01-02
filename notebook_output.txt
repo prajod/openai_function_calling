@@ -1,0 +1,24 @@
+
+Assistant Message = {'role': 'assistant', 'content': None, 'tool_calls': [{'id': 'call_rrPSXPoVlBmkKg5aZkhQV6ob', 'type': 'function', 'function': {'name': 'get_sales_info', 'arguments': '{}'}}]}
+Messages = [{'role': 'system', 'content': "Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous."}, {'role': 'user', 'content': 'You are an expert planogram designer. I need your help in designing a planogram for a shelf, in a Retail Store in Bangalore.  The shelf is in the chocolates aisle. The shelf has 5 columns and 4 rows. Each cell in the shelf can hold one chocolate box. So the shelf can hold a total of 5 x 4 = 20 chocolate boxes. I want to prioritize in the following order(highest priority is listed first and lowest is listed last):market share, then margin share, then new product, then core product. It is very important that the returned planogram should be in the format given below. Do not leave any cell empty. Can you help me with the planogram design ?\n\n[["AAA", "AAA", "AAA", "AAA", "AAA"],\n ["AAA", "AAA", "AAA", "AAA", "AAA"],\n ["AAA", "AAA", "AAA", "AAA", "AAA"],\n ["AAA", "AAA", "AAA", "AAA", "AAA"]]'}, {'role': 'assistant', 'content': None, 'tool_calls': [{'id': 'call_rrPSXPoVlBmkKg5aZkhQV6ob', 'type': 'function', 'function': {'name': 'get_sales_info', 'arguments': '{}'}}]}, {'role': 'tool', 'tool_call_id': 'call_rrPSXPoVlBmkKg5aZkhQV6ob', 'name': 'get_sales_info', 'content': "{'sales_info': {'market_share_percentage': {'Munch': 40, 'Milky bar': 30, 'KitKat': 20, 'BarOne': 5}, 'margin_share_percentage': {'Munch': 6, 'Milky bar': 15, 'KitKat': 10, 'BarOne': 12}, 'core_product': {'Munch': 'No', 'Milky bar': 'No', 'KitKat': 'Yes', 'BarOne': 'No'}, 'new_product': {'Munch': 'No', 'Milky bar': 'No', 'KitKat': 'No', 'BarOne': 'Yes'}}}"}]
+
+
+{'id': 'chatcmpl-8Ld9YR5QkTIlc6SoJKVA571sgC76t',
+ 'object': 'chat.completion',
+ 'created': 1700166084,
+ 'model': 'gpt-3.5-turbo-0613',
+ 'choices': [{'index': 0,
+   'message': {'role': 'assistant',
+    'content': 'Sure, I can help you with the planogram design. Let\'s start by incorporating the sales information into the planogram.\n\nBased on the sales information provided, here is the planogram design for the shelf in the chocolates aisle:
+\n\n
+
+[["Munch", "Munch", "Munch", "Munch", "Milky bar"],\n 
+["Munch", "Munch", "Munch", "Munch", "KitKat"],\n 
+["Milky bar", "Milky bar", "KitKat", "KitKat", "BarOne"],\n 
+["BarOne", "BarOne", "BarOne", "BarOne", "BarOne"]]
+
+\n\nThis planogram prioritizes the chocolates based on market share, margin share, new product, and core product in the order you specified.\n\nPlease note that I have filled all the cells of the shelf with chocolates based on the given priorities, and there are no empty cells.\n\nLet me know if you need any further assistance!'},
+   'finish_reason': 'stop'}],
+ 'usage': {'prompt_tokens': 426,
+  'completion_tokens': 196,
+  'total_tokens': 622}}

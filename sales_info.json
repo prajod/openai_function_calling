@@ -1,0 +1,30 @@
+
+{
+    "sales_info": {
+      "market_share_percentage": {
+        "Munch": 40,
+        "Milky bar": 30,
+        "KitKat": 20,
+        "BarOne": 5
+      },
+      "margin_share_percentage": {
+        "Munch": 6,
+        "Milky bar": 15,
+        "KitKat": 10,
+        "BarOne": 12
+      },
+      "core_product": {
+        "Munch": "No",
+        "Milky bar": "No",
+        "KitKat": "Yes",
+        "BarOne": "No"
+      },
+      "new_product": {
+        "Munch": "No",
+        "Milky bar": "No",
+        "KitKat": "No",
+        "BarOne": "Yes"
+      }
+    }
+  }
+  
