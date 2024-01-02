@@ -14,3 +14,10 @@ This notebook contains the following 2 sections:
 
 - **How to generate function arguments:** Specify a set of functions and use the API to generate function arguments.
 - **How to call functions with model generated arguments:** Close the loop by actually executing functions with model generated arguments.
+
+- #### Files:
+  1. planogramdesign_openai_function_calling.ipynb contains the source code in python
+  2. sales_info.json contains the market data that we provide to the LLM, when it asks for data
+  3. notebook_output.txt contains sample output from the notebook that can be compared against yours after you run the notebook.
+  4. requirements.txt has the libraries and versions used by the notbook code
+     
