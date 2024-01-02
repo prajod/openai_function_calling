@@ -1,5 +1,5 @@
 # RAG using Function calling for tabular data ingestion
-
+(Tested with version 1.2.4 of the openai api. This version was released in Nv 2023. This code will not work with earlier version of open ai api)
 This notebook covers how to use the Chat Completions API in combination with external functions to extend the capabilities of GPT models.
 
 `tools` is an optional parameter in the Chat Completion API which can be used to provide function specifications. The purpose of this is to enable models to generate function arguments which adhere to the provided specifications. Note that the API will not actually execute any function calls. It is up to developers to execute function calls using model outputs.
