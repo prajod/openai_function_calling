@@ -21,4 +21,8 @@ This notebook contains the following 2 sections:
   3. notebook_output.txt contains sample output from the notebook that can be compared against yours after you run the notebook.
   4. requirements.txt has the libraries and versions used by the notbook code
   5. A .env file is needed to store your OPENAI_API_KEY. The notebook assumes that this file is present. That file is not added in this repo. Please create the file and add it to your source folder. See this link for help with .env files: https://www.runthat.blog/how-to-create-and-use-env-files-in-python/
+ 
+## Python version information
+  1. Anaconda version:  4.12.0
+  2. Python version: 3.9.18
      
